@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/giffos.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,400i,700,700i&display=swap" rel="stylesheet">
+    <title>Guifos</title>
+</head>
+<body>
+    <header> 
+        <div class="bienvenida">
+            <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803
+            </p>
+        </div>
+        <div class="general">
+            <a href="index.html"><img class="back" src="/assets/arrow.svg" alt="regresar"></a>
+            <div class="logo">
+                <a href="index.html"><img src="./assets/gifOF_logo.png" alt="" class="gifazul"></a>
+            </div>
+        </div>
+    <header>
+    <section id="step1">    
+        <div class="contentView1">
+            <div class="titleBar">
+                <p>Crear Guifos</p>
+            </div>
+            <div class="square">
+                <img class="window" src="/assets/window img.png" alt="window">
+                <p> <strong>Aquí podrás crear tus propios guifos</strong><br><br>
+                    Crear tu guifo es muy fácil, graba cualquier imagen con tu cámara y obtén guifos <br> personalizados. Los pasos para crear tu guifo son:<br><br>
+                    1) Dar permisos de acceso a la cámara (sólo por el tiempo de uso)<br>
+                    2) Capturar tu momento guifo<br>
+                    3) Revisar el momento<br>
+                    4) Listo para subir y compartir!<br>
+                    ¿Quieres comenzar a crear tu guifo ahora?<br>
+                </p>
+                <div id="firstButtons">
+                <button id="buttonCancel1" class="cream">Cancelar</button>
+                <button id="buttonBegin" class="pink">Comenzar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="step2">
+        <div class="contentView2">
+            <div class="checkTitle">
+                <p id="chequeo">Un Chequeo Antes de Empezar</p>
+                <p id="capturando">Capturando tu Guifo</p>
+                <p id="previa">Vista Previa</p>
+                <img class="close" src="/assets/close.svg" alt="window">
+            </div>
+            <img id="image" src="./" alt="Aqui va el gif">
+            <video id="video" src=""></video>
+            <div class="dropdown">
+                <button id="dropbtn"><img src="./assets/camera.svg" alt="camera" srcset=""></button>
+                <button id="buttonCapture" type="submit">Capturar</button>
+            </div>
+            <p class="timer" id="timer"></p>
+            <div class="okRed">
+            <button id="okbtn"><img src="./assets/recording.svg" alt="rojo" srcset=""></button>
+            <button id="buttonReady" type="submit">Listo</button>
+            </div>
+            <div id="lastButtons">
+            <button id="buttonRepeat" type="submit">Repetir Captura</button>
+            <button id="buttonUpload" type="submit">Subir Guifo</button>
+            </div>
+        </div>
+    </section>
+    <section id="step3"> 
+        <div class="contentView2">
+            <div class="uploadTitle">
+                <p>Subiendo Guifo</p>
+            </div>
+            <div class="white">
+                <div class="whitestuff">
+                <img class="globe" src="./assets/globe_img.png" alt="tierra">
+                <h2><b>Estamos subiendo tu guifo...</b></h2>
+                <div class="animateC">
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                    <div class="squareFigure"></div>
+                </div>
+                <p>Tiempo restante <del>38 años</del> algunos minutos</p>
+                </div>
+            </div>
+            <div id="otherButtons">
+                <button id="CancButton" type="submit">Cancelar</button>
+            </div>
+        </div>
+    </section>
+    <section id="step4"> 
+        <div class="contentView2">
+            <div class="uploadTitle">
+                <p>Guifo Subido Con Éxito</p>
+            </div>
+            <img id="myNewGif" src="" alt="">
+            <div class="lastie">
+            <p class="finish" ><b>Guifo creado con éxito</b></p>
+            <button id='CopyButton'>Copiar Enlace Guifo</button>
+            <button id="buttonDownload">Descargar Guifo</button>
+            </div>
+            <button class="listo2" id="buttonClose">Listo</button>
+        </div>
+    </section>
+    <section  class="bar">
+        <p class="gifBarTitle">Mis Guifos</p>
+        <div id="misgifs" class="myGfsContainer"></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.6/RecordRTC.js"></script>
+    <script src="./JS/video.js"></script>      
+</body>
+</html>

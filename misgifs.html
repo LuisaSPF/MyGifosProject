@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,400i,700,700i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e271bb86e.js" crossorigin="anonymous"></script>
+    <title>GifOS</title>
+</head>
+<body>
+    <!-- Menu -->
+    <header> 
+        <div class="bienvenida">
+            <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803
+            </p>
+        </div>
+        <div class="general">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/gifOF_logo.png" alt="" class="gifazul"></a>
+            </div>
+            <!-- Buttons -->
+            <div class="botones">
+                <button onclick="location.href='Guifos.html'" id="crearG" class="CrearGif">Crear Gifos</button>
+                    <button class="tema">Elegir tema</button>
+                    <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="./assets/dropdown.svg" alt="" srcset=""></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <button><a href="#">Sailor Day</a></button>
+                        <button onclick="myColorFunction()"><a href="">Sailor Night</a></button>
+                    </div>
+                    </div>
+                <a class="mG" href="misgifs.html">Mis Guifos</a>
+            </div>
+        </div>
+    </header>
+    <!-- Show upload gifs -->
+    <section id="sect_mg" class="gfSection">
+        <div class="mgTittle">
+            <p id="misguifos">Mis Guifos</p>
+        </div>
+        <div id="misgifs" class="myGfsContainer">
+        </div>
+    </section>
+    <script src="./JS/video.js"></script>
+</body>
+</html>
